@@ -1,0 +1,10 @@
+#! /bin/bash
+
+python kmeans_benchmark.py 1000 10 5
+python kmeans_benchmark.py 1000 50 5
+
+python kmeans_benchmark.py 10000 10 5
+python kmeans_benchmark.py 10000 50 5
+
+python kmeans_benchmark.py 100000 10 5
+python kmeans_benchmark.py 100000 50 5
